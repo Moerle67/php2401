@@ -49,9 +49,12 @@
         //     print("2 ** $i = ".(2**$i));
         // }
 
-        $i=0;while($i<20){print("<br />");print("
-            2**$i=".(2**$i
-        ));$i=$i+1;}
+        $i = 0;
+        while ($i < 20) {
+            print("<br />");
+            print("2 ** $i = ".(2**$i));
+            $i = $i + 1;
+        }
     ?>
 </body>
 </html>
