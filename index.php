@@ -7,16 +7,37 @@
 </head>
 <body>
     <h1>Meine erste Seite</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fugit ipsa labore, eaque rem architecto alias animi, tempore eos sapiente praesentium fuga rerum non doloremque eligendi inventore provident recusandae veritatis ea aperiam adipisci? Consequatur, voluptatum corporis. Voluptate ullam consectetur alias sunt, sed fugit exercitationem recusandae minima? Quia reprehenderit rem amet, fuga fugiat harum nobis cum sit, sapiente exercitationem laborum vitae facere quam odit ab enim voluptates illo autem ea quo qui temporibus dolor eaque? Enim voluptatibus reprehenderit suscipit quos magnam officiis ea vel temporibus cumque? Nam, facilis suscipit consequatur repellat provident accusantium, cupiditate porro, eos ullam at quia. Unde autem doloribus suscipit commodi voluptas fugiat ullam. Corporis possimus eos magnam placeat consectetur ad iste obcaecati a sit nobis, repudiandae aut exercitationem quam illo aliquam, deserunt neque ex rem, saepe ipsa sequi illum delectus et officia. Praesentium dolorum, necessitatibus eum neque laborum aut aperiam id qui fugiat ut adipisci porro iusto at optio eligendi asperiores quam dolores voluptate rerum blanditiis, iste molestias eaque voluptates vitae? Eum quidem eius id praesentium aut laboriosam, sequi, omnis non provident ad blanditiis quisquam odit pariatur veniam repellendus illum dolorum! Velit beatae illum consectetur et enim distinctio consequuntur quod debitis nostrum, quis cumque. Obcaecati, necessitatibus hic.</p>
-    <p>
     <?php
-        print("Hello World!");
+        $name = "Ingo Mörl";
 
-        echo "So geht es auch.... Ist aber veraltet";
+        print("<h2>Hallo, lieber $name!</h2>");
 
-        phpinfo();
+        print('<h2>Hallo, lieber $name!</h2>');
+
+        $zahl1 = 1;
+        $zahl2 = 2;
+
+        print("Meine Zahlen $zahl1, $zahl2");
+
+        print("<br />");
+        var_dump($zahl1);
+        print("<br />");
+        var_dump($zahl2);
+
+        print("<br />");
+        
+        // +
+        print("$zahl1 + $zahl2 = ".$zahl1+$zahl2);
+
+        // -
+
+        // *
+
+        // /
+
+        // %
+
+        // **
     ?>
-    </p>
-    <p>Ja, der nervt ....</p>
 </body>
 </html>
