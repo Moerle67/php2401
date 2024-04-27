@@ -44,17 +44,25 @@
         // **
         print("$zahl1 ** $zahl2 = ".$zahl1**$zahl2);
 
-        // for ($i = 0; $i <= 120; $i++) {
-        //     print("<br />");
-        //     print("2 ** $i = ".(2**$i));
-        // }
-
-        $i = 0;
-        while ($i < 20) {
+        for ($i = 0; $i <= 120; $i++) {
             print("<br />");
             print("2 ** $i = ".(2**$i));
-            $i = $i + 1;
         }
+
+        // $i = 0;
+        // while ($i < 20) {
+        //     print("<br />");
+        //     print("2 ** $i = ".(2**$i));
+        //     $i = $i + 1;
+        // }
+        
+        $fruits = array("apple", "banana", "orange");
+        print("<br />");
+        foreach ($fruits as $fruit) {
+            print($fruit);
+            print("<br />");
+        }
+
     ?>
 </body>
 </html>
