@@ -7,14 +7,14 @@
 </head>
 <body>
     <h1>Formular zur Dateneingabe</h1>
-    <form>
+    <form action="get.php" method="POST">
         <div>
             <label for="vname">Vorname: </label>
-            <input type="text" id="vname" name="vname"> 
+            <input type="text" id="vname" name="vorname"> 
         </div>      
         <div>
             <label for="nname">Nachname: </label>
-            <input type="text" id="nname" name="nname">        
+            <input type="text" id="nname" name="nachname">        
         </div>      
         <div>
             <label for="zahl1">Zahl1: </label>
@@ -25,7 +25,7 @@
             <input type="number" id="zahl2" name="zahl2">        
         <div>
         <div>
-            <button type="submitt">Absenden</button>
+            <button type="submit">Absenden</button>
         </div>
     </form>
 </body>

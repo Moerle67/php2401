@@ -8,12 +8,12 @@
 <body>
     <h1>Übergaben von Daten</h1>
     <?php
-        // var_dump($_GET);
-        $name = $_GET['nachname'];
-        $vorname = $_GET['vorname'];
+        // var_dump($_POST);
+        $name = $_POST['nachname'];
+        $vorname = $_POST['vorname'];
 
-        $zahl1 = $_GET['zahl1'];
-        $zahl2 = $_GET['zahl2'];
+        $zahl1 = $_POST['zahl1'];
+        $zahl2 = $_POST['zahl2'];
 
         $zahl3 = $zahl1 + $zahl2;
 
